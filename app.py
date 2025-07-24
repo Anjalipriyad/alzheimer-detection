@@ -19,7 +19,7 @@ st.set_page_config(
 try:
     # Use the absolute path provided by the user. If you deploy this,
     # consider changing to a relative path like "model/your_model.h5"
-    model_path = "/model/my_model.h5" # Changed to .h5
+    model_path = "model/my_model.h5" # Changed to .h5
     model = load_model(model_path) # Load the Keras model
     st.sidebar.success(f"Model loaded successfully! ✅") # Success message in sidebar
 except Exception as e:
