@@ -5,7 +5,7 @@ import tensorflow as tf
 import cv2
 import matplotlib.pyplot as plt
 import io
-from tensorflow.keras.models import load_model # Import load_model for .h5 models
+from keras.models import load_model
 
 # --- UI Enhancements: Set page configuration ---
 st.set_page_config(
